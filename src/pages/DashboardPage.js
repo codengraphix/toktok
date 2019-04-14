@@ -136,7 +136,7 @@ class DashboardPage extends React.Component {
 
           <Col lg="4" md="12" sm="12" xs="12">
             <Card>
-              <CardHeader>Total</CardHeader>
+              <CardHeader>Tones</CardHeader>
               <CardBody>
                 <Bar data={chartjs.bar.data} options={chartjs.bar.options} />
               </CardBody>
