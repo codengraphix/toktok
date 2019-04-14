@@ -181,29 +181,30 @@ export const supportTicketsData = [
   {
     id: 1,
     avatar: user1Image,
-    name: 'Sim',
-    date: '30 mins ago',
+    name: 'Pal Investing',
+    date: '21 Feb 2019',
     text:
-      'Lorem ipsum dolor sit amet,consectetuer edipiscing elit,sed diam nonummy nibh euismod tinciduntut laoreet doloremagna aliquam erat volutpat.',
-    status: 'pending',
+      'Never thought that One basketball player can hurt a #stock price. Look at $NKE pre market. Broken shoe during the game and now Nike’s CEO @ CNBC giving explanations on the quality of the shoes.',
+    status: 'open',
   },
+  
   {
     id: 2,
     avatar: user2Image,
     name: 'Jane',
-    date: '1 hour ago',
+    date: '20 Feb 2019',
     text:
-      'Lorem ipsum dolor sit amet,consectetuer edipiscing elit,sed diam nonummy nibh euismod tinciduntut laoreet doloremagna aliquam erat volutpat.',
+      'Duke Zion Williamson broken shoe cost #Nike a billion dollar stock loss today! #duke #ZionsShoe #ZionWilliamson #CollegeBasketball #mysportsvote',
     status: 'open',
   },
   {
     id: 3,
     avatar: user3Image,
-    name: 'Tom',
-    date: 'yesterday',
+    name: 'Blogger Book Reviews',
+    date: '21 Feb 2019',
     text:
-      'Lorem ipsum dolor sit amet,consectetuer edipiscing elit,sed diam nonummy nibh euismod tinciduntut laoreet doloremagna aliquam erat volutpat.',
-    status: 'closed',
+      'We would be buyers if #Nike #stock drops on Duke shoe malfunction The broken shoe that sent Duke University star Zion Williamson limping home in the first minute of a game on Wednesday will likely only have a limited impact on the stock, say investors.',
+    status: 'open',
   },
 ];
 
