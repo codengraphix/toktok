@@ -125,8 +125,8 @@ class DashboardPage extends React.Component {
           <Col lg="8" md="12" sm="12" xs="12">
             <Card>
               <CardHeader>
-                Total Revenue{' '}
-                <small className="text-muted text-capitalize">This year</small>
+                GRAPH{' '}
+                <small className="text-muted text-capitalize">2019</small>
               </CardHeader>
               <CardBody>
                 <Line data={chartjs.line.data} options={chartjs.line.options} />
@@ -136,27 +136,26 @@ class DashboardPage extends React.Component {
 
           <Col lg="4" md="12" sm="12" xs="12">
             <Card>
-              <CardHeader>Total Expense</CardHeader>
+              <CardHeader>Total</CardHeader>
               <CardBody>
                 <Bar data={chartjs.bar.data} options={chartjs.bar.options} />
               </CardBody>
               <ListGroup flush>
                 <ListGroupItem>
-                  <MdInsertChart size={25} color={primaryColor} /> Cost of sales{' '}
-                  <Badge color="secondary">$3000</Badge>
+                  <MdInsertChart size={25} color={primaryColor} />Neutral{' '}
+                  <Badge color="secondary">3000</Badge>
                 </ListGroupItem>
                 <ListGroupItem>
-                  <MdBubbleChart size={25} color={primaryColor} /> Management
-                  costs <Badge color="secondary">$1200</Badge>
+                  <MdBubbleChart size={25} color={primaryColor} />Negative <Badge color="secondary">1200</Badge>
                 </ListGroupItem>
                 <ListGroupItem>
-                  <MdShowChart size={25} color={primaryColor} /> Financial costs{' '}
-                  <Badge color="secondary">$800</Badge>
+                  <MdShowChart size={25} color={primaryColor} />Positive{' '}
+                  <Badge color="secondary">800</Badge>
                 </ListGroupItem>
-                <ListGroupItem>
+                {/* <ListGroupItem>
                   <MdPieChart size={25} color={primaryColor} /> Other operating
                   costs <Badge color="secondary">$2400</Badge>
-                </ListGroupItem>
+                </ListGroupItem> */}
               </ListGroup>
             </Card>
           </Col>
@@ -189,7 +188,7 @@ class DashboardPage extends React.Component {
         <Row>
           <Col md="6" sm="12" xs="12">
             <Card>
-              <CardHeader>New Products</CardHeader>
+              <CardHeader>My Stocks</CardHeader>
               <CardBody>
                 {productsData.map(
                   ({ id, image, title, description, right }) => (
@@ -208,7 +207,7 @@ class DashboardPage extends React.Component {
 
           <Col md="6" sm="12" xs="12">
             <Card>
-              <CardHeader>New Users</CardHeader>
+              <CardHeader>Friends</CardHeader>
               <CardBody>
                 <UserProgressTable
                   headers={[
@@ -368,13 +367,13 @@ class DashboardPage extends React.Component {
           <Col lg="4" md="12" sm="12" xs="12">
             <AnnouncementCard
               color="gradient-secondary"
-              header="Announcement"
+              header="Live News"
               avatarSize={60}
               name="Jamy"
               date="1 hour ago"
-              text="Lorem ipsum dolor sit amet,consectetuer edipiscing elit,sed diam nonummy euismod tinciduntut laoreet doloremagna"
+              text="Wall Street’s ‘fear index’ tumbles to 6-month low as stock market nears records"
               buttonProps={{
-                children: 'show',
+                children: 'read',
               }}
               style={{ height: 500 }}
             />
@@ -384,9 +383,9 @@ class DashboardPage extends React.Component {
             <Card>
               <CardHeader>
                 <div className="d-flex justify-content-between align-items-center">
-                  <span>Support Tickets</span>
+                  <span>Twitter Feed</span>
                   <Button>
-                    <small>View All</small>
+                    <small>Reload</small>
                   </Button>
                 </div>
               </CardHeader>
