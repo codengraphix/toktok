@@ -70,7 +70,7 @@ class DashboardPage extends React.Component {
         <Row>
           <Col lg={3} md={6} sm={6} xs={12}>
             <NumberWidget
-              title="Total Profit"
+              title="Dow Jones"
               subtitle="This month"
               number="9.8k"
               color="secondary"
@@ -83,7 +83,7 @@ class DashboardPage extends React.Component {
 
           <Col lg={3} md={6} sm={6} xs={12}>
             <NumberWidget
-              title="Monthly Visitors"
+              title="S&P 500"
               subtitle="This month"
               number="5,400"
               color="secondary"
@@ -96,7 +96,7 @@ class DashboardPage extends React.Component {
 
           <Col lg={3} md={6} sm={6} xs={12}>
             <NumberWidget
-              title="New Users"
+              title="NASDAQ"
               subtitle="This month"
               number="3,400"
               color="secondary"
@@ -109,7 +109,7 @@ class DashboardPage extends React.Component {
 
           <Col lg={3} md={6} sm={6} xs={12}>
             <NumberWidget
-              title="Bounce Rate"
+              title="Russell 2000 Index"
               subtitle="This month"
               number="38%"
               color="secondary"
